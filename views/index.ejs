@@ -1,0 +1,290 @@
+<%- include('partials/head.ejs')%>
+
+<body class="body">
+    <header>
+        <div class="container">
+            <!--nav-->
+            <nav>
+                <div class="logo">
+                    <a href="index.ejs" title="Pagina Inicial"><img alt="Logo" src="./image/logo.png"></a>
+                </div>
+                <div class="login">
+                    <a href="/login"><button>Cadastre-se</button></a>
+                </div>
+            </nav>
+
+            <section class="banner">
+                <h1>Filmes trash ilimitados,<br> dos anos 70 aos 90</h1>
+                <p>Assista qualquer coisa, cancele a qualquer momento.</p>
+                <p>Pronto,para assistir? Digite seu e-mail para criar ou reiniciar sua assoçiação.</p>
+                <div class="banner-footer">
+                    <input type="email" name="Email" placeholder="Endereço de email" required>
+                    <button>Iniciar</button>
+                </div>
+            </section>
+        </div>
+    </header>
+
+    <section class="sessao-1">
+        <div class="container-sessao">
+            <div class="sessao-1-descricao">
+                <h1>Aprecie os maiores classicos do cinema b.</h1>
+                <h3>
+                    Assista em SmartTVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray e muito mais.
+                </h3>
+            </div>
+            <div class="sessao-1-img">
+                <video autoplay muted loop src="./image/jason.mp4"></video>
+                <img src="./image/tv.png" alt="Assista em tv Android" title="Assista em tv Android">
+            </div>
+        </div>
+    </section>
+
+    <section class="sessao-2">
+        <div class="container-sessao">
+            <div class="sessao-2-img">
+                <img src="./image/mobile-0819.jpg" alt="assista em Qualquer Lugar" title="assista em Qualquer Lugar">
+                <div class="sessao-2-img-footer">
+                    <img src="./image/images.jfif" alt="Sexta Feira 13" title="Sexta Feira 13">
+                    <div class="sessao-2-img-footer-content">
+                        <p>Sexta Feira 13</p>
+                        <p>Baixando...</p>
+                    </div>
+                    <img src="./image/download-icon.gif" alt="Baixar e assista em qualque lugar">
+                </div>
+            </div>
+            <div class="sessao-2-descricao">
+                <h1>Baixe seus classicos favoritos para assistir offline.</h1>
+                <h3>Salve seus favoritos e sempre tenha algo para assistir.</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="sessao-3 sessao-2">
+        <div class="container-sessao">
+            <div class="sessao-3-descricao">
+                <h1>Assista em Qualquer Lugar.</h1>
+                <p>
+                    Filmes ilimatados em seu telefone, tablet, laptop e TV.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="sessao-4">
+        <div class="container-sessao-4">
+            <div class="sessao-4-img w50">
+                <img src="./image/kids.jpg" alt="Os maiores classicos do Trash" title="Os maiores classicos do Trash">
+            </div>
+            <div class="sessao-4-descricao w50">
+                <h1>Criar perfis para você e sua familia.</h1>
+                <h3>
+                    Envie e compartilhe seus filmes favoritos com seus amigos.
+                </h3>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </section>
+
+    <section class="sessao-5 mt-10">
+        <div class="container">
+            <div class="box-sessao-5">
+                <h1>Perguntas Frenquentes</h1>
+                <section class="accordion ">
+                    <div class="accordion__container">
+                        <!-- 1 -->
+                        <div class="accordion__item">
+                            <div>
+                                <header class="accordion__header">
+                                    <h3 class="accordion__title">O que é a Trashflix?</h3>
+                                    <svg class="accordion__icon" viewBox="0 0 26 26">
+                                        <path
+                                            d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z">
+                                        </path>
+                                    </svg>
+                                </header>
+                            </div>
+                            <div class="accordion__content">
+                                <p class="accordion__description">
+                                    A Trahflix é um serviço de streaming que oferece uma ampla variedade de filmes b
+                                    conectados à internet.
+                                </p>
+                                <p class="accordion__description">
+                                    Você pode assistir o quanto quiser, quando quiser, sem um único comercial - tudo por
+                                    um preço mensal baixo. Sempre há algo novo para descobrir e novos filmes são adicionados
+                                    todas as semanas!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <div>
+                                <header class="accordion__header">
+                                    <h3 class="accordion__title">Quanto custa a Trashflix?</h3>
+                                    <svg class="accordion__icon" viewBox="0 0 26 26">
+                                        <path
+                                            d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z">
+                                        </path>
+                                    </svg>
+                                </header>
+                            </div>
+                            <div class="accordion__content">
+                                <p class="accordion__description">
+                                    Assista ao Trashflix em seu smartphone, tablet, Smart TV, laptop ou dispositivo de
+                                    streaming, tudo por uma taxa fixa mensal. Os planos variam de R$ 15,00 a R$ 25,00
+                                    por mês. Sem custos extras, sem contratos.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <div>
+                                <header class="accordion__header">
+                                    <h3 class="accordion__title">Onde posso assistir?</h3>
+                                    <svg class="accordion__icon" viewBox="0 0 26 26">
+                                        <path
+                                            d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z">
+                                        </path>
+                                    </svg>
+                                </header>
+                            </div>
+                            <div class="accordion__content">
+                                <p class="accordion__description">
+                                    Assista em qualquer lugar, a qualquer hora. Faça login com sua conta Trashflix para
+                                    assistir instantaneamente na web em trashflix.com de seu computador pessoal ou em
+                                    qualquer dispositivo conectado à Internet.
+                                </p>
+                                <p class="accordion__description">
+                                    Você também pode baixar seus filmes favoritos com o aplicativo iOS, Android ou
+                                    Windows 10. Use os downloads para assistir enquanto está em trânsito e sem conexão
+                                    com a Internet. Leve a Netflix com você para qualquer lugar.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <div>
+                                <header class="accordion__header">
+                                    <h3 class="accordion__title">Como faço para cancelar?</h3>
+                                    <svg class="accordion__icon" viewBox="0 0 26 26">
+                                        <path
+                                            d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z">
+                                        </path>
+                                    </svg>
+                                </header>
+                            </div>
+                            <div class="accordion__content">
+                                <p class="accordion__description">
+                                    A Trashflix é flexível. Não existem contratos incômodos nem compromissos. Você pode
+                                    cancelar facilmente sua conta online em dois cliques. Não há taxas de cancelamento -
+                                    inicie ou encerre sua conta a qualquer momento.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <div>
+                                <header class="accordion__header">
+                                    <h3 class="accordion__title">O que posso assistir no Trashflix?</h3>
+                                    <svg class="accordion__icon" viewBox="0 0 26 26">
+                                        <path
+                                            d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z">
+                                        </path>
+                                    </svg>
+                                </header>
+                            </div>
+                            <div class="accordion__content">
+                                <p class="accordion__description">
+                                    A Trashflix tem uma extensa biblioteca de filmes trash das decadas de 80, 90, 2000.
+                                    Assista o quanto quiser, quando
+                                    quiser
+                                </p>
+                            </div>
+                        </div>
+                        <div class="accordion__item">
+                            <div>
+                                <header class="accordion__header">
+                                    <h3 class="accordion__title">A Trashflix é bom para crianças?</h3>
+                                    <svg class="accordion__icon" viewBox="0 0 26 26">
+                                        <path
+                                            d="M10.5 9.3L1.8 0.5 0.5 1.8 9.3 10.5 0.5 19.3 1.8 20.5 10.5 11.8 19.3 20.5 20.5 19.3 11.8 10.5 20.5 1.8 19.3 0.5 10.5 9.3Z">
+                                        </path>
+                                    </svg>
+                                </header>
+                            </div>
+                            <div class="accordion__content">
+                                <p class="accordion__description">
+                                    A experiência Trashflix tras um controle parental. Quando falamos em filmes trash,
+                                    não estamos nos referindo apenas em filmes de terror, mas filmes de baixo orçamento
+                                    no geral
+                                </p>
+                                <p class="accordion__description">
+                                    Perfis infantis vêm com controles dos pais protegidos por PIN que permitem
+                                    restringir a classificação de maturidade do conteúdo que as crianças podem assistir
+                                    e bloquear títulos específicos que você não quer que as crianças vejam.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="sessao-5-email">
+                    <div class="container">
+                        <div class="email">
+                            <p>Pronto para assistir? Digite seu e-mail para criar ou reiniciar sua associação.</p>
+                            <div class="banner-footer">
+                                <input type="email" name="Email" placeholder="Endereço de email">
+                                <button>Iniciar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="box-footer">
+            <div class="container">
+                <p>Perguntas? contate-Nos.</p>
+                <div class="box-single">
+                    <div class="box-single-footer">
+                        <ul>
+                            <li>Perguntas Frenquentes</li>
+                            <li>Relações com investidores</li>
+                            <li>Privacidade</li>
+                            <li>teste rápido</li>
+                        </ul>
+                    </div>
+                    <div class="box-single-footer">
+                        <ul>
+                            <li>Centro de ajuda</li>
+                            <li>Empregos</li>
+                            <li>Preferências de cookies</li>
+                            <li>Noticias Legais</li>
+                        </ul>
+                    </div>
+                    <div class="box-single-footer">
+                        <ul>
+                            <li>Contas</li>
+                            <li>Maneiras de assistir</li>
+                            <li>Informações Corporativas</li>
+                            <li>Apenas na Trashflix</li>
+                        </ul>
+                    </div>
+                    <div class="box-single-footer">
+                        <ul>
+                            <li>Centro de midia</li>
+                            <li>Termo de uso</li>
+                            <li>Entre em contacto conosco</li>
+                        </ul>
+                    </div>
+                </div>
+                <p>Trashflix</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+    crossorigin="anonymous"></script>
+<script src="/js/bootstrap.min.js"></script>
+</html>

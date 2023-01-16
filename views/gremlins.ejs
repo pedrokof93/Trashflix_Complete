@@ -1,0 +1,119 @@
+<%- include('partials/head.ejs')%>
+
+    <body class="body">
+        <header>
+            <div class="container">
+                <!--nav-->
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">Menu</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active-danger" aria-current="page" href="/main">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/links">Link</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Mais
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="/filmes">Filmes</a></li>
+                                        <li><a class="dropdown-item" href="/franquias">Franquias</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="/novidades">Novidades</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-danger" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="logo">
+                        <a href="index.ejs" title="Pagina Inicial"><img alt="Logo" src="./image/logo.png"></a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div class="principal config">
+            <br>
+            <div class="container">
+                <div class="categoria">
+                    <h1>Gremlins</h1>
+                </div>
+                <div class="row row-cols-6 g-3">
+                    <div class="col">
+                        <div class="card efeito efeitoCont">
+                            <img src="/image/gr1.png" class="card-img-top" alt="capa">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card efeito efeitoCont">
+                            <img src="/image/gr2.jpg" class="card-img-top" alt="capa">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="box-footer">
+                <div class="container">
+                    <p>Perguntas? contate-Nos.</p>
+                    <div class="box-single">
+                        <div class="box-single-footer">
+                            <ul>
+                                <li>Perguntas Frenquentes</li>
+                                <li>Relações com investidores</li>
+                                <li>Privacidade</li>
+                                <li>teste rápido</li>
+                            </ul>
+                        </div>
+                        <div class="box-single-footer">
+                            <ul>
+                                <li>Centro de ajuda</li>
+                                <li>Empregos</li>
+                                <li>Preferências de cookies</li>
+                                <li>Noticias Legais</li>
+                            </ul>
+                        </div>
+                        <div class="box-single-footer">
+                            <ul>
+                                <li>Contas</li>
+                                <li>Maneiras de assistir</li>
+                                <li>Informações Corporativas</li>
+                                <li>Apenas na Trashflix</li>
+                            </ul>
+                        </div>
+                        <div class="box-single-footer">
+                            <ul>
+                                <li>Centro de midia</li>
+                                <li>Termo de uso</li>
+                                <li>Entre em pedrohds88@gmail.com ou github.com/pedrokof93</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p>Trashflix</p>
+                </div>
+            </div>
+        </footer>
+        <script src="js/app.js"></script>
+    </body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    </html>
